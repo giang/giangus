@@ -22,12 +22,9 @@ export default defineConfig({
 		sitemap(),
 		NetlifyCMS({
 			config: {
-				backend: {
-					name: "github",
-					repo: "giang/giangus",
+				backend: {			
+					name: "git-gateway",
 					branch: "main",
-					base_url: "https://blog.giang.us",
-					auth_endpoint: "/api/auth",
 				},
 				media_folder: "public/images",
 				public_folder: "/images",
