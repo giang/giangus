@@ -11,7 +11,7 @@ import AstroPWA from "@vite-pwa/astro";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://astros.zank.studio",
+	site: "https://blog.giang.us",
 	vite: {
 		define: {
 			__DATE__: `'${new Date().toISOString()}'`,
@@ -24,9 +24,9 @@ export default defineConfig({
 			config: {
 				backend: {
 					name: "github",
-					repo: "zankhq/astros",
+					repo: "giang/giangus",
 					branch: "main",
-					base_url: "https://astros.zank.studio",
+					base_url: "https://blog.giang.us",
 					auth_endpoint: "/api/auth",
 				},
 				media_folder: "public/images",
